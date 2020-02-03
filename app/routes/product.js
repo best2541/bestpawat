@@ -2,8 +2,8 @@ var express = require('express');
 var router = express.Router();
 
 /* GET users listing. */
-router.get('/', function(req, res, next) {
-  res.render('product',{ title:'สินค้า'});
+router.get('/', function (req, res, next) {
+  res.render('product', { title: 'สินค้า' });
 });
 
 module.exports = router;
